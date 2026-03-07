@@ -1,0 +1,116 @@
+.hotToursItem {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iI2RkZjFmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhMGQ4ZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    padding: 20px;
+    border: 1px solid #10daff;
+    cursor: pointer;
+}
+
+.hotToursItem__image img {
+    height: inherit;
+    width: 100%;
+    transition: all 0.2s ease-in-out
+}
+
+.hotToursItem:hover img {
+    transform: scale(1.1);
+}
+
+.hotToursItem__rating {
+    margin-bottom: 5px;
+}
+
+.hotToursItem__cityCountry {
+    margin-bottom: 20px;
+    color: #4D5C62;
+    font-size: 14px;
+}
+
+.hotToursItem__night {
+    font-size: 14px;
+    color: #232D30;
+}
+
+.hotToursItem__russiaCity {
+    font-size: 14px;
+    color: #232D30;
+    margin-bottom: 20px;
+}
+
+.hotToursItem__price {
+    margin-top: 5px;
+    position: relative;
+    height: 36px;
+}
+
+.hotToursItem__Name a {
+    text-decoration: none;
+    color: black;
+}
+
+.hotTourInfoOldPrice {
+    text-decoration: line-through;
+    opacity: .6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hotTourInfoOldPriceValue {
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+.hotTourInfoOldPriceCurrency {
+    opacity: .8;
+    display: inline-block;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.hotTourInfoPriceBlock {
+    text-align: right;
+    padding-right: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hotTourInfoNewPrice {
+    font-size: 24px;
+    text-align: right;
+    line-height: 1;
+}
+
+.hotTourInfoNewPriceValue {
+    display: inline-block;
+}
+
+.hotTourInfoNewPriceCurrency {
+    opacity: .8;
+    display: inline-block;
+    margin-left: 3px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.hotTourInfoPriceIcon {
+    font-size: 19px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: background-color .3s linear;
+}
+
+.lastMinutTours {
+    margin-bottom: 20px;
+}

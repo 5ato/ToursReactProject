@@ -1,0 +1,11 @@
+.sitemap {
+    font-family: HelveticaRegular;
+    padding: 25px 15px 35px 15px;
+    background-color: #acebff;
+}
+
+.sitemap__row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}

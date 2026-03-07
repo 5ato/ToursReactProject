@@ -1,0 +1,21 @@
+.header__otherLinks {
+    margin: 0 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    font-size: 0.7em;
+}
+
+.otherLinks__other {
+    color: #808080;
+    display: flex;
+    gap: 1em;
+}
+
+.otherLinks__about a {
+    color: #0d63a0;
+    font-weight: bold;
+}

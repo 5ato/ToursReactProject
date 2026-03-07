@@ -1,0 +1,32 @@
+.header__navbar {
+    width: 100%;
+    background-color: #0d63a0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+    .nav .nav__item {
+        padding: 17px;
+        font-family: OpenSansMedium;
+        border-left: 1px solid #2878b1;
+        border-right: 1px solid #2878b1;
+        color: #fff;
+    }
+
+.star {
+    color: #ffba00;
+    margin-right: 4px;
+}
+
+.whereBuy {
+    font-family: OpenSansBold;
+    font-size: 0.8em;
+    color: #fff;
+}

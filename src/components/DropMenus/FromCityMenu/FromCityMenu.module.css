@@ -1,0 +1,90 @@
+.fromCityMenu {
+    min-width: 580px;
+    background-color: #fff;
+}
+
+.departureTableHeader {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 14px 20px 4px;
+    background-color: #edf2f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.departureTableNoFlight {
+    padding: 6px 13px 6px 11px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    white-space: nowrap;
+    color: #333;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.departureTableNationControl {
+    padding: 6px 13px 6px 11px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    white-space: nowrap;
+    color: #333;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.departureTableBody {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.departureTableContent {
+    height: 432px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.departureTableItemWrapper {
+    width: 180px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.departureTableItemChar {
+    width: 10px;
+    margin-right: 10px;
+    font-family: var(--tv-font-theme2);
+    font-weight: 700;
+    font-size: 13px;
+    color: #55addc;
+    text-transform: uppercase;
+}
+
+.departureTableItemControl {
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #185584;
+    color: #fff;
+}

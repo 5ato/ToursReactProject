@@ -1,0 +1,46 @@
+.checkboxControl {
+    height: 38px;
+    padding: 0 10px;
+    font-size: 13px;
+    color: #5c6672;
+    background-color: #fff;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkboxControl input {
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #5c6672;
+    border: 1px solid #5c6672;
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    border-radius: 3px;
+}
+
+.checkboxContent {
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    color: #5c6672;
+}
+
+.wrapperCheckboxControl {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    height: max-content;
+    overflow: hidden;
+}

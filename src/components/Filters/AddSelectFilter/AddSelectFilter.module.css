@@ -1,0 +1,58 @@
+.addSelect {
+    height: 38px;
+    padding-left: 10px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addSelectContentBlock {
+    flex: 1 1 0%;
+    min-width: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.addSelectPlaceholder {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: rgb(92, 102, 114);
+    position: absolute;
+}
+
+.addSelectArrow {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    margin: auto 5px;
+}
+
+.addSelectArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(92, 102, 114);
+    cursor: pointer;
+}
+
+.wrapperAddSelect {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    height: max-content;
+    position: relative;
+}
+
+.dropMenuWrapper {
+    position: absolute;
+    z-index: 1111;
+    top: 100%;
+    left: 0%;
+}

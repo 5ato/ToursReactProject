@@ -1,0 +1,47 @@
+
+.checkboxTreeItemRootWrapper {
+    height: 22px;
+    padding-right: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkboxTreeItemRoot {
+    flex: 1 1 0%;
+    min-width: 0px;
+    color: rgb(92, 102, 114);
+    padding: 2px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    height: 18px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.checkboxTreeItemArow {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.checkboxTreeItemArow::before {
+    content: "+";
+    font-size: 13px;
+    line-height: 1;
+    color: rgb(92, 102, 114);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

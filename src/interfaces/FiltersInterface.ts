@@ -1,0 +1,22 @@
+export interface SearchWithFlightFilterInterface {
+    fromCityValue: string;
+    toCityValue: string;
+    startDateFlight: string;
+    endDateFlight: string;
+    startNight: number;
+    endNight: number;
+    adults: number;
+    children: (string | null)[];
+}
+
+export interface SearchHotelFilterInterface {
+    selectedMeal: number;
+    hotelTypes: HotelTypeInterface[];
+    ratingSelected: number;
+}
+
+export interface HotelTypeInterface {
+    id: number;
+    name: string;
+    checked: boolean;
+}

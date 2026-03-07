@@ -1,0 +1,57 @@
+@font-face
+{
+    font-family: 'HelveticaLight';
+    src: url(/fonts/Helvetica/helvetica_light.otf)
+}
+
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url(/fonts/Helvetica/helvetica_regular.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaBoldOblique';
+    src: url(/fonts/Helvetica/helvetica_boldoblique.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url(/fonts/Helvetica/helvetica_bold.otf);
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url(/fonts/Open_Sans/static/OpenSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url(/fonts/Open_Sans/static/OpenSans-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'OpenSansMedium';
+    src: url(/fonts/Open_Sans/static/OpenSans-Medium.ttf)
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

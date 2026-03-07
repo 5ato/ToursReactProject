@@ -1,0 +1,84 @@
+.typeHotelMenuWrapper {
+    background: #fff;
+    box-shadow: 0 5px 15px 0 #777;
+}
+
+.CheckboxListSelectTooltipContent {
+    padding: 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.CheckboxListSelectTooltipTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.CheckboxListControl {
+    height: auto;
+    max-height: 240px;
+    min-height: 100px;
+    width: 190px;
+    flex-direction: column;
+    display: flex;
+    overflow: auto;
+}
+
+.Checkbox {
+    color: #5c6672;
+    padding: 2px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    min-height: 20px;
+    cursor: pointer;
+    position: relative;
+    line-height: 18px;
+    display: inline-block;
+    user-select: none;
+}
+
+.Checkbox input {
+    background-color: #5c6672;
+    border-color: #5c6672;
+    margin-right: 8px;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px;
+    box-sizing: content-box;
+}
+
+.CheckboxListSelectTooltipSubmit {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.ButtonControl {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #777;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 0;
+    background-image: none;
+    box-shadow: none;
+    text-align: center;
+    text-shadow: none;
+    float: none;
+    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+}

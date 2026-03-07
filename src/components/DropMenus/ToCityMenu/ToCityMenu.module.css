@@ -1,0 +1,137 @@
+.toCityMenu {
+    width: 390px;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    max-height: 512px;
+    color: #5c6672;
+    background: #fff;
+    box-shadow: 0 5px 15px 0 #777;
+    position: absolute;
+    z-index: 100000;
+}
+.CountrySelectHeader {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #edf2f5;
+}
+.CountrySelectFlightType {
+    background: #edf2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CountryCheckbox {
+    display: inline-block;
+    color: #5c6672;
+    padding: 2px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    line-height: 18px;
+}
+.CountryCheckbox input {
+    background-color: #5c6672;
+    border-color: #5c6672;
+    color: #fff;
+    margin-right: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px;
+    box-sizing: content-box;
+}
+.CountrySelectClose {
+    margin-left: auto;
+    color: #777;
+    cursor: pointer;
+}
+.CountrySelectContent {
+    padding: 20px 10px 20px 20px;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.SelectCountryListControl {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+}
+.CountryAirportListWithTabs {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+.CountryAirportList {
+    padding-right: 10px;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 100%;
+}
+.CountryAirportListView {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.CountryAirportListTheme {
+    font-size: 13px;
+    color: #333;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.ComplexItemContentWrapper {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.ComplexItemContent {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 13px;
+    flex: 1;
+    min-width: 0;
+    line-height: 18px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.CountryFlags {
+    margin-right: 10px;
+    border-radius: 2px;
+    min-width: 22px;
+    width: 22px;
+    height: 16px;
+    margin-right: 7px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ComplexItemButton {
+    line-height: 13px;
+    padding: 8px 13px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #edf2f5;
+    color: #5c6672;
+    cursor: pointer;
+}

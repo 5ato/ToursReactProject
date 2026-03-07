@@ -1,0 +1,18 @@
+.page {
+    font-family: OpenSansRegular;
+    margin: 0 15%;
+    margin-top: 30px;
+}
+
+p.space {
+    margin: 30px;
+}
+
+.informationAlert {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.lastMinutTours {
+    margin-bottom: 20px;
+}

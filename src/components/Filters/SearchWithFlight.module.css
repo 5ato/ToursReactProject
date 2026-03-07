@@ -1,0 +1,23 @@
+.serachWithFlight {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: rgb(79, 173, 220);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.serachWithFlight__listFilter {
+    display: flex;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.search__mode {
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+}

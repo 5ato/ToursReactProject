@@ -1,0 +1,8 @@
+.mode {
+    display: flex;
+    gap: 5px;
+}
+
+.mode input {
+    border: 0;
+}

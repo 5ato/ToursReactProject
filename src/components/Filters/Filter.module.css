@@ -1,0 +1,15 @@
+.page__content {
+    margin-bottom: 30px;
+}
+
+.page__content__title {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}

@@ -1,0 +1,17 @@
+.sitemap__row__column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+    .sitemap__row__column h3 {
+        font-size: 0.9em;
+    }
+
+    .sitemap__row__column ul {
+        list-style: none;
+    }
+        .sitemap__row__column ul li a {
+            font-size: 0.75em;
+            color: #285064;
+        }

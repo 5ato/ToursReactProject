@@ -1,0 +1,47 @@
+.MealMenuWrapper {
+    background: #fff;
+    box-shadow: 0 5px 15px 0 #777;
+}
+
+.RadionGroupSelectTooltipContent {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.RadioGroupSelectTooltipTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.TooltipRadioGroup {
+    max-height: 240px;
+    min-height: 100px;
+    overflow: auto;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    gap: 10px;
+}
+
+.InputRadioWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.InputRadioWrapper input {
+    border: 1px solid rgb(221, 221, 221);
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
