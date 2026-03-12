@@ -1,9 +1,29 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import styles from "./ToCityMenu.module.css"
-import { toCityAllData, toCityPopularData } from "../../../data/toCityData"
 
-export default function ToCityMenu({ onSelectCountry }: { onSelectCountry: (value: string) => void }) {
+interface ToCountries {
+    id: number;
+    countryFlagImage: string;
+    name: string;
+    onlyCharter: boolean;
+    hasAirport: boolean;
+    fromCitiesId: number[];
+}
+
+export default function ToCityMenu({ onSelectCountry, fromCityId }: { onSelectCountry: (value: string, id: number) => void, fromCityId: number }) {
     const [onlyCharter, setOnlyCharter] = useState<boolean>(true)
+
+    let [toCountriesData, setCountriesData] = useState<ToCountries[]>([]);
+
+    useEffect(() => {
+        fetch("data/toCountriesData.json")
+            .then((data) => data.json())
+            .then((result: ToCountries[]) => {
+                let data = result.filter(c => c.fromCitiesId.includes(fromCityId))
+                onSelectCountry(data[0].name, data[0].id)
+                setCountriesData(data)
+            })
+    }, [fromCityId])
 
     return (
         <div className={styles.toCityMenu}>
@@ -26,25 +46,9 @@ export default function ToCityMenu({ onSelectCountry }: { onSelectCountry: (valu
                     <div className={styles.CountryAirportListWithTabs}>
                         <div className={styles.CountryAirportList}>
                             <div className={styles.CountryAirportListView}>
-                                <div className={styles.CountryAirportListTheme}>Популярные</div>
-                                {toCityPopularData.map(country => (
+                                {toCountriesData.map(country => (
                                     <div key={country.id} className={styles.ComplexItemContentWrapper}>
-                                        <div onClick={() => onSelectCountry(country.name)} className={styles.ComplexItemContent}>
-                                            <span className={styles.CountryFlags} style={{
-                                                backgroundImage: `url(${country.countryFlagImage})`
-                                            }}></span>
-                                            {country.name}
-                                        </div>
-                                        {country.hasAirport && 
-                                            <div className={styles.ComplexItemButton}>Аэропорт</div>}
-                                    </div>
-                                ))}
-                            </div>
-                            <div className={styles.CountryAirportListView}>
-                                <div className={styles.CountryAirportListTheme}>Все страны</div>
-                                {toCityAllData.map(country => (
-                                    <div key={country.id} className={styles.ComplexItemContentWrapper}>
-                                        <div onClick={() => onSelectCountry(country.name)} className={styles.ComplexItemContent}>
+                                        <div onClick={() => onSelectCountry(country.name, country.id)} className={styles.ComplexItemContent}>
                                             <span className={styles.CountryFlags} style={{
                                                 backgroundImage: `url(${country.countryFlagImage})`
                                             }}></span>

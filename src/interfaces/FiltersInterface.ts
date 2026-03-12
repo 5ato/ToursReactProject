@@ -1,6 +1,8 @@
 export interface SearchWithFlightFilterInterface {
     fromCityValue: string;
+    fromCityId: number;
     toCityValue: string;
+    toCityId: number;
     startDateFlight: string;
     endDateFlight: string;
     startNight: number;

@@ -14,7 +14,9 @@ export default function FilterContainer() {
 
     const [flightFilters, setFlightFilters] = useState<SearchWithFlightFilterInterface>({
         fromCityValue: 'Самара',
+        fromCityId: 5,
         toCityValue: 'Турция',
+        toCityId: 1,
         startDateFlight: '',
         endDateFlight: '',
         startNight: 6,
@@ -30,7 +32,8 @@ export default function FilterContainer() {
                 filters={flightFilters}
                 onFilterChange={setFlightFilters}/>
             <SearchHotel
-                filters={hotelFilters}
+                filtersWithFlight={flightFilters}
+                filtersHotel={hotelFilters}
                 onFilterChange={setHotelFilters}/>
         </div>
     )

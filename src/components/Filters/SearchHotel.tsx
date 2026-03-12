@@ -1,4 +1,3 @@
-import { useState } from "react"
 import checkboxTreeData from "../../data/checkboxTreeData"
 import nameHotelData from "../../data/nameHotelData"
 import useDropdownManager from "../../hooks/useDropdownManager"
@@ -10,18 +9,27 @@ import FieldSearch from "../FieldSearch/FieldSearch"
 import AddSelectFilter from "./AddSelectFilter/AddSelectFilter"
 import FilterCheckbox from "./FilterCheckbox/FilterCheckbox"
 import styles from "./SearchHotel.module.css"
-import hotelTypesData from "../../data/hotelTypesData"
 import mealData from "../../data/mealData"
 import ratingData from "../../data/ratingData"
-import type { SearchHotelFilterInterface } from "../../interfaces/FiltersInterface"
+import type { SearchHotelFilterInterface, SearchWithFlightFilterInterface } from "../../interfaces/FiltersInterface"
+import { useEffect, useState } from "react"
 
-interface SearchHotelProps { 
-    filters: SearchHotelFilterInterface,
+interface SearchHotelProps {
+    filtersWithFlight: SearchWithFlightFilterInterface,
+    filtersHotel: SearchHotelFilterInterface,
     onFilterChange: React.Dispatch<React.SetStateAction<SearchHotelFilterInterface>>
 }
 
-export default function SearchHotel({ filters, onFilterChange }: SearchHotelProps)  {
+interface ToCity {
+    id: number;
+    name: string;
+    toCountryId: number;
+}
+
+export default function SearchHotel({ filtersHotel, filtersWithFlight, onFilterChange }: SearchHotelProps)  {
     const {isActive, toggleDropdown} = useDropdownManager({ initialActiveId: null });
+
+    const [toCities, setToCities] = useState<ToCity[]>([]);
 
     function handleFilterChange(field: keyof SearchHotelFilterInterface, value: any) {
         onFilterChange(prev => ({
@@ -29,6 +37,12 @@ export default function SearchHotel({ filters, onFilterChange }: SearchHotelProp
             [field]: value
         }))
     }
+
+    useEffect(() => {
+        fetch("data/toCitiesData.json")
+            .then(data => data.json())
+            .then((result: ToCity[]) => setToCities(result.filter(c => c.toCountryId == filtersWithFlight.toCityId)));
+    }, [filtersWithFlight])
 
     return (
         <div className={styles.searchHotel}>
@@ -56,7 +70,7 @@ export default function SearchHotel({ filters, onFilterChange }: SearchHotelProp
                 <div className={styles.resortTreeFilter}>
                     <div className={styles.resortListWrapper}>
                         <div className={styles.checkboxTreeControl}>
-                            {checkboxTreeData.map((e) => (
+                            {toCities.map((e) => (
                                 <CheckboxTreeItem key={e.id} hide={true}>{e.name}</CheckboxTreeItem>
                             ))}
                         </div>
@@ -73,7 +87,7 @@ export default function SearchHotel({ filters, onFilterChange }: SearchHotelProp
                         toggleDropdown={toggleDropdown}
                         style={{flex: "130 1 0%", minWidth: "0px"}}>
                         <TypeHotelMenu
-                            data={filters.hotelTypes}
+                            data={filtersHotel.hotelTypes}
                             setData={val => handleFilterChange("hotelTypes", val)}
                             defaultTypeId={1}/>
                     </AddSelectFilter>
@@ -85,7 +99,7 @@ export default function SearchHotel({ filters, onFilterChange }: SearchHotelProp
                         toggleDropdown={toggleDropdown}>
                         <MealMenu
                             data={mealData}
-                            selectedMeal={filters.selectedMeal}
+                            selectedMeal={filtersHotel.selectedMeal}
                             setSelectedMeal={val => handleFilterChange("selectedMeal", val)}/>
                     </AddSelectFilter>
                     <AddSelectFilter 
@@ -96,7 +110,7 @@ export default function SearchHotel({ filters, onFilterChange }: SearchHotelProp
                         toggleDropdown={toggleDropdown}>
                         <RatingMenu
                             data={ratingData}
-                            selectedRating={filters.ratingSelected}
+                            selectedRating={filtersHotel.ratingSelected}
                             setSelectedRating={val => handleFilterChange("ratingSelected", val)}/>
                     </AddSelectFilter>
                 </div>

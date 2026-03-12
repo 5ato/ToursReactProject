@@ -87,7 +87,7 @@ export default function SearchWithFlight({ filters, onFilterChange }: SearchWith
                     toggleDropdown={toggleDropdown}
                 >
                     <FromCityMenu
-                        onClickCity={(val) => handleFilterChange("fromCityValue", val)}/>
+                        onClickCity={(val, id) => {handleFilterChange("fromCityValue", val); handleFilterChange("fromCityId", id)}}/>
                 </DropFilter>
                 <DropFilter
                     key={2}
@@ -106,7 +106,8 @@ export default function SearchWithFlight({ filters, onFilterChange }: SearchWith
                     toggleDropdown={toggleDropdown}
                 >
                     <ToCityMenu
-                        onSelectCountry={val => handleFilterChange("toCityValue", val)}/>
+                        onSelectCountry={(val, id) => {handleFilterChange("toCityValue", val); handleFilterChange("toCityId", id)}}
+                        fromCityId={filters.fromCityId}/>
                 </DropFilter>
                 <DropFilter
                     key={3}

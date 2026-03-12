@@ -2,7 +2,7 @@ import type { CSSProperties } from "react";
 
 interface City {
     id: number,
-    name: string
+    name: string,
 }
 
 interface DepartureData {

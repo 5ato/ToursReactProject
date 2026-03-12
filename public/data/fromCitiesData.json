@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Астана",
+        "id": 1,
+        "fromCountryId": 2
+    },
+    {
+        "name": "Алматы",
+        "id": 2,
+        "fromCountryId": 2
+    },
+    {
+        "name": "Казань",
+        "id": 3,
+        "fromCountryId": 1
+    },
+    {
+        "name": "Москва",
+        "id": 4,
+        "fromCountryId": 1
+    },
+    {
+        "name": "Самара",
+        "id": 5,
+        "fromCountryId": 1
+    },
+    {
+        "name": "С.Петербург",
+        "id": 6,
+        "fromCountryId": 1
+    }
+]
