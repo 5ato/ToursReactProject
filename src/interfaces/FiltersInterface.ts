@@ -15,6 +15,8 @@ export interface SearchHotelFilterInterface {
     selectedMeal: number;
     hotelTypes: HotelTypeInterface[];
     ratingSelected: number;
+    checkedToCitiesId: number[];
+    checkedHotelsId: number[];
 }
 
 export interface HotelTypeInterface {

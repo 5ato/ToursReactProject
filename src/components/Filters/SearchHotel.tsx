@@ -1,5 +1,3 @@
-import checkboxTreeData from "../../data/checkboxTreeData"
-import nameHotelData from "../../data/nameHotelData"
 import useDropdownManager from "../../hooks/useDropdownManager"
 import CheckboxTreeItem from "../CheckboxTreeItem/CheckboxTreeItem"
 import MealMenu from "../DropMenus/MealMenu/MealMenu"
@@ -24,12 +22,22 @@ interface ToCity {
     id: number;
     name: string;
     toCountryId: number;
+    checked: boolean;
+}
+
+interface Hotels {
+    id: number;
+    name: string;
+    stars: number;
+    toCityId: number;
+    checked: boolean;
 }
 
 export default function SearchHotel({ filtersHotel, filtersWithFlight, onFilterChange }: SearchHotelProps)  {
     const {isActive, toggleDropdown} = useDropdownManager({ initialActiveId: null });
 
     const [toCities, setToCities] = useState<ToCity[]>([]);
+    const [hotels, setHotels] = useState<Hotels[]>([]);
 
     function handleFilterChange(field: keyof SearchHotelFilterInterface, value: any) {
         onFilterChange(prev => ({
@@ -39,9 +47,55 @@ export default function SearchHotel({ filtersHotel, filtersWithFlight, onFilterC
     }
 
     useEffect(() => {
+        onFilterChange(prev => 
+            ({ ...prev, checkedToCitiesId: toCities.filter(e => e.checked).map(val => val.id)})
+        )
+    }, [toCities])
+
+    useEffect(() => {
+        onFilterChange(prev =>
+            ({...prev, checkedHotelsId: hotels.filter(e => e.checked).map(val => val.id)})
+        )
+    }, [hotels])
+
+    useEffect(() => {
+        fetch("data/hotelsData.json")
+            .then(data => data.json())
+            .then((result: Hotels[]) => {
+                if (filtersHotel.checkedToCitiesId.length === 1 && filtersHotel.checkedToCitiesId[0] === 0)
+                    setHotels(result.filter(val => toCities.filter(c => c.toCountryId === filtersWithFlight.toCityId).map(c => c.id).includes(val.toCityId)));
+                else
+                    setHotels(result.filter(val => filtersHotel.checkedToCitiesId.includes(val.toCityId)))
+            })
+
+    }, [filtersHotel.checkedToCitiesId])
+
+    function handleOnChangeToCities(id: number) {
+        if (id === 0 && !toCities.find(item => item.id === 0)?.checked)
+            setToCities(toCities.map(item => 
+                item.id === 0 ? {...item, checked: !item.checked} : {...item, checked: false}
+            ))
+        else
+        {
+            toCities.find(item => item.id === 0)!.checked = false;
+            setToCities(toCities.map(item => 
+                item.id === id ? {...item, checked: !item.checked } : item
+            ))
+        }
+    }
+
+    function handleOnChangeHotels(id: number) {
+        setHotels(prev => prev.map(item => item.id === id ? {...item, checked: !item.checked }: item))
+    }
+
+    useEffect(() => {
         fetch("data/toCitiesData.json")
             .then(data => data.json())
-            .then((result: ToCity[]) => setToCities(result.filter(c => c.toCountryId == filtersWithFlight.toCityId)));
+            .then((result: ToCity[]) => 
+                setToCities(result.filter(c => 
+                    c.toCountryId == filtersWithFlight.toCityId || c.id === 0
+                )
+            ));
     }, [filtersWithFlight])
 
     return (
@@ -71,7 +125,12 @@ export default function SearchHotel({ filtersHotel, filtersWithFlight, onFilterC
                     <div className={styles.resortListWrapper}>
                         <div className={styles.checkboxTreeControl}>
                             {toCities.map((e) => (
-                                <CheckboxTreeItem key={e.id} hide={true}>{e.name}</CheckboxTreeItem>
+                                <CheckboxTreeItem 
+                                    key={e.id} 
+                                    currentId={e.id} 
+                                    handleOnChange={handleOnChangeToCities} 
+                                    title={e.name}
+                                    checked={e.checked}/>
                             ))}
                         </div>
                     </div>
@@ -118,16 +177,20 @@ export default function SearchHotel({ filtersHotel, filtersWithFlight, onFilterC
                     <div className={styles.hotelListWrapper}>
                         <div className={styles.hotelsControl}>
                             <div className={styles.hotelListWithTabs}>
-                                <div className={styles.TabListWithSearch}>
+                                {/* <div className={styles.TabListWithSearch}>
                                     <div className={styles.TabListWithSearchInput}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                                         <input placeholder="Введите название отеля"/>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className={styles.hotelList}>
                                     <div className={styles.checkboxListControl}>
-                                        {nameHotelData.map(e => (
-                                            <FieldSearch key={e.id}>{e.name}</FieldSearch>
+                                        {hotels.map(e => (
+                                            <FieldSearch 
+                                                checked={e.checked}
+                                                key={e.id} 
+                                                onChange={() => handleOnChangeHotels(e.id)} 
+                                                title={e.name}/>
                                         ))}
                                     </div>
                                 </div>

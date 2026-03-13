@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "name": "10 KARAKOY ISTANBUL 5*",
+        "stars": 5,
+        "toCityId": 1,
+        "checked": false
+    },
+    {
+        "id": 2,
+        "name": "10M2 HOTEL 2*",
+        "stars": 2,
+        "toCityId": 1,
+        "checked": false
+    },
+    {
+        "id": 3,
+        "name": "116 RESIDENCE",
+        "stars": 1,
+        "toCityId": 1,
+        "checked": false
+    },
+
+    
+    {
+        "id": 4,
+        "name": "74 MUSEUM",
+        "stars": 1,
+        "toCityId": 2,
+        "checked": false
+    },
+
+    
+    {
+        "id": 5,
+        "name": "ANFORA 3*",
+        "stars": 3,
+        "toCityId": 3,
+        "checked": false
+    },
+
+    
+    {
+        "id": 6,
+        "name": "ATALAY HOTEL 2*",
+        "stars": 2,
+        "toCityId": 4,
+        "checked": false
+    },
+    {
+        "id": 7,
+        "name": "OMMER HOTEL 5*",
+        "stars": 5,
+        "toCityId": 4,
+        "checked": false
+    },
+
+    {
+        "id": 8,
+        "name": "ALA KONAK 3*",
+        "stars": 3,
+        "toCityId": 5,
+        "checked": false
+    },
+
+    {
+        "id": 9,
+        "name": "AL BOSTAN 4*",
+        "stars": 4,
+        "toCityId": 6,
+        "checked": false
+    },
+    {
+        "id": 10,
+        "name": "ALBATROS EXPRESS 5*",
+        "stars": 5,
+        "toCityId": 6,
+        "checked": false
+    },
+    {
+        "id": 11,
+        "name": "BLUE REEF NAAMA BAY 3*",
+        "stars": 3,
+        "toCityId": 6,
+        "checked": false
+    },
+
+    {
+        "id": 12,
+        "name": "AL KASR 5*",
+        "stars": 3,
+        "toCityId": 7,
+        "checked": false
+    },
+    {
+        "id": 13,
+        "name": "ALADDIN BEACH RESORT 4*",
+        "stars": 4,
+        "toCityId": 7,
+        "checked": false
+    },
+
+    {
+        "id": 14,
+        "name": "4 СЕЗОНА",
+        "stars": 2,
+        "toCityId": 8,
+        "checked": false
+    },
+    {
+        "id": 15,
+        "name": "АРКАДИЯ 2*",
+        "stars": 2,
+        "toCityId": 8,
+        "checked": false
+    },
+    {
+        "id": 16,
+        "name": "БЕСТ 2*",
+        "stars": 2,
+        "toCityId": 8,
+        "checked": false
+    },
+    
+    {
+        "id": 17,
+        "name": "1001 НОЧЬ 2*",
+        "stars": 2,
+        "toCityId": 9,
+        "checked": false
+    },
+    {
+        "id": 18,
+        "name": "7 АВЕНЮ СПА 5*",
+        "stars": 5,
+        "toCityId": 9,
+        "checked": false
+    },
+
+    {
+        "id": 19,
+        "name": "10 БОГОВ 4*",
+        "stars": 4,
+        "toCityId": 10,
+        "checked": false
+    },
+
+    {
+        "id": 20,
+        "name": "7 ДОРОГ 3*",
+        "stars": 3,
+        "toCityId": 11,
+        "checked": false
+    },
+
+    {
+        "id": 21,
+        "name": "1000 И 1 НОЧЬ У ОКЕАНА",
+        "stars": 5,
+        "toCityId": 12,
+        "checked": false
+    },
+    {
+        "id": 22,
+        "name": "1001 НОЧЬ МАХАЧКАЛА 4*",
+        "stars": 4,
+        "toCityId": 12,
+        "checked": false
+    },
+    {
+        "id": 23,
+        "name": "12 ПРИЧАЛ",
+        "stars": 1,
+        "toCityId": 12,
+        "checked": false
+    },
+
+    {
+        "id": 24,
+        "name": "VERTEX 4*",
+        "stars": 4,
+        "toCityId": 13,
+        "checked": false
+    },
+
+    {
+        "id": 25,
+        "name": "100 INN 2*",
+        "stars": 2,
+        "toCityId": 14,
+        "checked": false
+    },
+    {
+        "id": 26,
+        "name": "ASIA HOTEL 5*",
+        "stars": 5,
+        "toCityId": 14,
+        "checked": false
+    },
+    {
+        "id": 27,
+        "name": "BEIJING 5*",
+        "stars": 5,
+        "toCityId": 14,
+        "checked": false
+    },
+    {
+        "id": 28,
+        "name": "CCECC PLAZA 4*",
+        "stars": 4,
+        "toCityId": 14,
+        "checked": false
+    },
+
+    {
+        "id": 29,
+        "name": "AIRLAND 4*",
+        "stars": 4,
+        "toCityId": 15,
+        "checked": false
+    },
+    {
+        "id": 30,
+        "name": "CHINA RICH HOTEL 3*",
+        "stars": 3,
+        "toCityId": 15,
+        "checked": false
+    },
+
+    {
+        "id": 31,
+        "name": "GOLDEN DRAGON 4*",
+        "stars": 4,
+        "toCityId": 16,
+        "checked": false
+    },
+
+    {
+        "id": 32,
+        "name": "8 COLORS 3*",
+        "stars": 3,
+        "toCityId": 17,
+        "checked": false
+    },
+    {
+        "id": 33,
+        "name": "ALILA 2*",
+        "stars": 2,
+        "toCityId": 17,
+        "checked": false
+    }
+]

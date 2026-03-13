@@ -1,10 +1,19 @@
 import styles from "./FieldSearch.module.css"
 
-export default function FieldSearch({ children }: { children: React.ReactNode }) {
+interface FieldSearchProps {
+    title: string;
+    checked: boolean;
+    onChange: () => void
+}
+
+export default function FieldSearch({ title, checked, onChange }: FieldSearchProps) {
     return (
         <div className={styles.TVcheckbox}>
-            <input type="checkbox"/>
-            {children}
+            <input 
+                checked={checked}
+                onChange={onChange}
+                type="checkbox"/>
+            {title}
         </div>
     )
 }

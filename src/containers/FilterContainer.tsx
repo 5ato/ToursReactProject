@@ -9,7 +9,9 @@ export default function FilterContainer() {
     const [hotelFilters, setHotelFilters] = useState<SearchHotelFilterInterface>({
         selectedMeal: 1,
         hotelTypes: hotelTypesData,
-        ratingSelected: 1
+        ratingSelected: 1,
+        checkedToCitiesId: [],
+        checkedHotelsId: []
     });
 
     const [flightFilters, setFlightFilters] = useState<SearchWithFlightFilterInterface>({
@@ -25,6 +27,7 @@ export default function FilterContainer() {
         children: []
     });
 
+    console.log(hotelFilters)
 
     return (
         <div className={styles.form__search}>

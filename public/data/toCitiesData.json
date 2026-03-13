@@ -1,87 +1,110 @@
 [
     {
+        "id": 0,
+        "name": "Любой курорт",
+        "toCountryId": 0,
+        "checked": true
+    },
+    {
         "id": 1,
         "name": "Стамбул",
-        "toCountryId": 1
+        "toCountryId": 1,
+        "checked": false
     },
     {
         "id": 2,
         "name": "Анталия",
-        "toCountryId": 1
+        "toCountryId": 1,
+        "checked": false
     },
     {
         "id": 3,
         "name": "Белек",
-        "toCountryId": 1
+        "toCountryId": 1,
+        "checked": false
     },
     {
         "id": 4,
         "name": "Кайсере",
-        "toCountryId": 1
+        "toCountryId": 1,
+        "checked": false
     },
     {
         "id": 5,
         "name": "Чешме",
-        "toCountryId": 1
+        "toCountryId": 1,
+        "checked": false
     },
     {
         "id": 6,
         "name": "Шарм-Эль-Шейх",
-        "toCountryId": 2
+        "toCountryId": 2,
+        "checked": false
     },
     {
         "id": 7,
         "name": "Хургада",
-        "toCountryId": 2
-    },
-    {
-        "id": 7,
-        "name": "Татарстан",
-        "toCountryId": 3
+        "toCountryId": 2,
+        "checked": false
     },
     {
         "id": 8,
-        "name": "Самарская обл.",
-        "toCountryId": 3
+        "name": "Татарстан",
+        "toCountryId": 3,
+        "checked": false
     },
     {
         "id": 9,
-        "name": "Алтай",
-        "toCountryId": 3
+        "name": "Самарская обл.",
+        "toCountryId": 3,
+        "checked": false
     },
     {
         "id": 10,
-        "name": "Байкал",
-        "toCountryId": 3
+        "name": "Алтай",
+        "toCountryId": 3,
+        "checked": false
     },
     {
         "id": 11,
-        "name": "Дагестан",
-        "toCountryId": 3
+        "name": "Байкал",
+        "toCountryId": 3,
+        "checked": false
     },
     {
         "id": 12,
-        "name": "Красная поляна",
-        "toCountryId": 3
+        "name": "Дагестан",
+        "toCountryId": 3,
+        "checked": false
     },
     {
         "id": 13,
-        "name": "Пекин",
-        "toCountryId": 4
+        "name": "Красная поляна",
+        "toCountryId": 3,
+        "checked": false
     },
     {
         "id": 14,
-        "name": "Гонконг",
-        "toCountryId": 4
+        "name": "Пекин",
+        "toCountryId": 4,
+        "checked": false
     },
     {
         "id": 15,
-        "name": "Макао",
-        "toCountryId": 4
+        "name": "Гонконг",
+        "toCountryId": 4,
+        "checked": false
     },
     {
         "id": 16,
+        "name": "Макао",
+        "toCountryId": 4,
+        "checked": false
+    },
+    {
+        "id": 17,
         "name": "Шанхай",
-        "toCountryId": 4
+        "toCountryId": 4,
+        "checked": false
     }
 ]

@@ -1,14 +1,22 @@
 import styles from "./CheckboxTreeItem.module.css"
 
-export default function CheckboxTreeItem({ children, hide = false }: { children: React.ReactNode, hide?: Boolean }) {
+interface CheckboxTreeItemProps {
+    title: string;
+    currentId: number;
+    checked: boolean;
+    handleOnChange: (id: number) => void
+}
+
+
+export default function CheckboxTreeItem({ title, currentId, checked, handleOnChange }: CheckboxTreeItemProps) {
+    
     return (
         <div className={styles.checkboxTreeItem}>
             <div className={styles.checkboxTreeItemRootWrapper}>
                 <div className={styles.checkboxTreeItemRoot}>
-                    <input type="checkbox"/>
-                    {children}
+                    <input checked={checked} onChange={() => handleOnChange(currentId)} type="checkbox"/>
+                    {title}
                 </div>
-                <div className={styles.checkboxTreeItemArow + " " + (hide ? styles.hide : "")}></div>
             </div>
         </div>
     )
