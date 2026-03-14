@@ -2,251 +2,753 @@
     {
         "id": 1,
         "name": "10 KARAKOY ISTANBUL 5*",
+        "descriptionPlace": "Алания-центр, Аланья, 150 м до моря",
+        "description": "Отель расположен в 150 м от пляжа, через дорогу. Предлагает своим гостям комфортное размещение и питание по системе «Все включено». На территории работает бар и ресторан, есть открытый бассейн и детская игровая площадка.",
+        "descriptionRoom": "Отель состоит из 5-этажного основного здания. 125 номеров различных категорий: Standard, Family, Suite. Все номера оснащены кондиционером, спутниковым телевидением, мини-баром, сейфом и ванной комнатой с феном. Есть номера с видом на море и бассейн.",
+        "founded": 1989,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601221.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601228.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601227.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601226.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601225.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601224.jpg"
+        ],
+        "address": "Merkez Mah. Ataturk Cad. No:47 Tosmur, 07450 Аланья, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 5,
         "toCityId": 1,
+        "cityName": "Стамбул",
+        "countryName": "Турция",
         "checked": false
     },
     {
         "id": 2,
         "name": "10M2 HOTEL 2*",
+        "descriptionPlace": "Кемер - центр, Кемер, 500 м до моря",
+        "description": "Небольшой отель удачно расположен в центре Кемера. Уютная зелёная территория, разнообразные завтраки, гостеприимные сотрудники. Тихая спокойная атмосфера, без анимации.",
+        "descriptionRoom": "Компактный отель на 35 номеров. Номера небольшой площади (от 10 до 15 м²), но функциональные. В каждом номере: кондиционер, телевизор, душ, туалетные принадлежности. Балконы выходят во внутренний двор или на тихую улицу.",
+        "founded": 2005,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601432.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601433.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601434.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601435.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601437.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601438.jpg"
+        ],
+        "address": "Merkez Mah. 107 Sok. No:8, 07980 Кемер, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 2,
         "toCityId": 1,
+        "cityName": "Стамбул",
+        "countryName": "Турция",
         "checked": false
     },
     {
         "id": 3,
         "name": "116 RESIDENCE",
+        "descriptionPlace": "Богазкент, Белек, 200 м до моря",
+        "description": "Отель в поселке Богазкент, до песчаного пляжа — 200 метров. Есть ресторан, открытый бассейн и бар. Гости могут отдохнуть в сауне и хаммаме. Рекомендуем для спокойного отдыха.",
+        "descriptionRoom": "Апарт-отель с 45 просторными номерами-студио и двухкомнатными апартаментами. В каждом номере: мини-кухня с холодильником и плитой, обеденная зона, гостиная, кондиционер, телевизор. Есть номера для семей с детьми.",
+        "founded": 2012,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504510.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504521.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504522.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504523.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504524.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504525.jpg"
+        ],
+        "address": "Bogazkent Mah. 24 Sok. No:116, 07506 Белек, Турция",
+        "nutritions": "HB - Завтрак, ужин",
+        "hotelType": "Апартаменты",
         "stars": 1,
         "toCityId": 1,
+        "cityName": "Стамбул",
+        "countryName": "Турция",
         "checked": false
     },
-
-    
     {
         "id": 4,
         "name": "74 MUSEUM",
+        "descriptionPlace": "Аланья, центр, 80 м до моря",
+        "description": "Отель на берегу моря в центре Алании. В пешей доступности много ресторанов и кафе. Современные номера с видом на море, разнообразное питание, дружелюбный персонал, качественная уборка. Идеально для культурного и пляжного отдыха.",
+        "descriptionRoom": "Бутик-отель с 22 уникальными номерами, оформленными в стиле современного искусства. Каждый номер посвящен известному художнику. В номерах: дизайнерская мебель, Smart TV, премиум-косметика, кофемашина. Панорамные окна с видом на море.",
+        "founded": 2018,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508340.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508341.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508342.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508343.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508344.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508345.jpg"
+        ],
+        "address": "Iskele Cad. No:74, 07400 Аланья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 1,
         "toCityId": 2,
+        "cityName": "Анталия",
+        "countryName": "Турция",
         "checked": false
     },
-
-    
     {
         "id": 5,
         "name": "ANFORA 3*",
+        "descriptionPlace": "Анталья, район Коньяалты, 300 м до моря",
+        "description": "Бюджетный отель, расположенный недалеко от пляжа и центра города со всеми его достопримечательностями. На территории — ресторан с баром, открытый бассейн. Просторные номера оборудованы всем необходимым для комфортного проживания.",
+        "descriptionRoom": "4-этажное здание с 60 номерами. Категории: Standard, Family Room. Номера оснащены кондиционером, телевизором с плоским экраном, холодильником, собственной ванной комнатой. Балконы с видом на бассейн или город.",
+        "founded": 2000,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111331.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111300.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111303.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111304.jpg"
+        ],
+        "address": "Arapsuyu Mah. 647 Sok. No:12, 07070 Анталья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 3,
         "toCityId": 3,
+        "cityName": "Белек",
+        "countryName": "Турция",
         "checked": false
     },
-
-    
     {
         "id": 6,
         "name": "ATALAY HOTEL 2*",
+        "descriptionPlace": "Алания-центр, Аланья, 50 м до моря",
+        "description": "Городской отель на окраине Алании, через дорогу от знаменитого пляжа Клеопатра. Компактная территория, несколько бассейнов и водных горок, мини-клуб. Гости могут расслабиться в спа-центре.",
+        "descriptionRoom": "Два 4-этажных корпуса, 110 номеров. В основном здании стандартные номера, в дополнительном — семейные с дополнительной спальней. В номерах: кондиционер, телевизор, мини-бар, сейф. Ванная комната с душевой кабиной.",
+        "founded": 1995,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601221.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601432.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504510.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508340.jpg"
+        ],
+        "address": "Kleopatra Mah. Ataturk Cad. No:51, 07400 Аланья, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 2,
         "toCityId": 4,
+        "cityName": "Кайсере",
+        "countryName": "Турция",
         "checked": false
     },
     {
         "id": 7,
         "name": "OMMER HOTEL 5*",
+        "descriptionPlace": "Аланья, район Тосмур, 20 м до моря",
+        "description": "Отель вблизи пляжа Тосмур, недалеко от центра Алании, рядом — остановки общественного транспорта. Современные номера оборудованы всем необходимым для проживания. Приветливый персонал, бассейн с водными горками. Для экономичного пляжного отдыха.",
+        "descriptionRoom": "Высотное здание с 250 номерами категорий Standard, Family, Suite, Deluxe с видом на море. Номера просторные, с современным дизайном. Оснащение: кондиционер, спутниковое ТВ, мини-бар, сейф, чайная станция. В ванных комнатах: душевая кабина, косметика, фен.",
+        "founded": 2010,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111331.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601433.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601228.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504521.jpg"
+        ],
+        "address": "Tosmur Mah. Ataturk Cad. No:72, 07400 Аланья, Турция",
+        "nutritions": "UAI - Ультра всё включено",
+        "hotelType": "Отель",
         "stars": 5,
         "toCityId": 4,
+        "cityName": "Кайсере",
+        "countryName": "Турция",
         "checked": false
     },
-
     {
         "id": 8,
         "name": "ALA KONAK 3*",
+        "descriptionPlace": "Коньяалты, Анталья, 200 м до моря",
+        "description": "Отель в районе Коньяалты, в 200 метрах от городского пляжа. Рядом с отелем множество баров, ресторанов. Гостей ждут номера с кухонным уголком, во дворе — открытый бассейн.",
+        "descriptionRoom": "Небольшой 3-этажный отель в традиционном стиле, 25 номеров. В каждом номере: кондиционер, телевизор, холодильник, обеденный стол, собственная ванная комната. Номера с балконами выходят во внутренний двор с бассейном.",
+        "founded": 2003,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508341.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111300.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601227.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601434.jpg"
+        ],
+        "address": "Konyaalti Mah. 65 Sok. No:12, 07070 Анталья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Пансионат",
         "stars": 3,
         "toCityId": 5,
+        "cityName": "Чешме",
+        "countryName": "Турция",
         "checked": false
     },
-
     {
         "id": 9,
         "name": "AL BOSTAN 4*",
+        "descriptionPlace": "Кемер - центр, Кемер, 500 м до моря",
+        "description": "Бюджетный отель, расположенный недалеко от пляжа и центра города со всеми его достопримечательностями. На территории — ресторан с баром, открытый бассейн. Просторные номера оборудованы всем необходимым для комфортного проживания.",
+        "descriptionRoom": "Два 5-этажных корпуса, соединенных переходами, всего 180 номеров. Категории: Standard, Family, Superior. В номерах: кондиционер, ЖК-телевизор, мини-бар (бесплатно вода), сейф. Балконы с видом на бассейн или горы.",
+        "founded": 2007,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504522.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212300.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601226.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508342.jpg"
+        ],
+        "address": "Merkez Mah. 104 Sok. No:15, 07980 Кемер, Турция",
+        "nutritions": "HB - Завтрак, ужин",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 6,
+        "cityName": "Шарм-Эль-Шейх",
+        "countryName": "Египет",
         "checked": false
     },
     {
         "id": 10,
         "name": "ALBATROS EXPRESS 5*",
+        "descriptionPlace": "Кемер, район Кириш, 100 м до моря",
+        "description": "Современный отель в районе Кириш, в 100 метрах от собственного галечного пляжа. Работает по системе «Все включено», есть несколько ресторанов и баров, большой открытый бассейн, аквапарк и разнообразная анимация для всей семьи.",
+        "descriptionRoom": "Главное 7-этажное здание и 2-этажные бунгало. Всего 320 номеров. Категории: Standard, Family, Suite с отдельной гостиной. Номера оснащены: кондиционер, спутниковое ТВ, мини-бар, сейф, чайник. В ванных комнатах: душевая кабина или ванна, фен, косметика.",
+        "founded": 2015,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601435.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601225.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504523.jpg"
+        ],
+        "address": "Kirish Mah. Sahil Yolu Cad. No:45, 07980 Кемер, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 5,
         "toCityId": 6,
+        "cityName": "Шарм-Эль-Шейх",
+        "countryName": "Египет",
         "checked": false
     },
     {
         "id": 11,
         "name": "BLUE REEF NAAMA BAY 3*",
+        "descriptionPlace": "Кемер, Текирова, 250 м до моря",
+        "description": "Уютный отель в тихом районе Текирова. Окружен хвойным лесом, до моря 250 метров. Подходит для спокойного семейного отдыха. Есть открытый бассейн, ресторан и бар. Номера с кондиционером и спутниковым телевидением.",
+        "descriptionRoom": "Несколько 3-этажных корпусов, утопающих в зелени, 150 номеров. Стандартные и семейные номера. В каждом: кондиционер, телевизор со спутниковыми каналами, мини-бар (пустой), сейф, телефон. Ванная комната с душем или ванной.",
+        "founded": 2008,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508343.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601224.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601437.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111303.jpg"
+        ],
+        "address": "Tekirova Mah. 39 Sok. No:8, 07980 Кемер, Турция",
+        "nutritions": "HB - Завтрак, ужин",
+        "hotelType": "Отель",
         "stars": 3,
         "toCityId": 6,
+        "cityName": "Шарм-Эль-Шейх",
+        "countryName": "Египет",
         "checked": false
     },
-
     {
         "id": 12,
         "name": "AL KASR 5*",
-        "stars": 3,
+        "descriptionPlace": "Белек, центр, 800 м до моря",
+        "description": "Роскошный отель в центре Белека, окруженный полями для гольфа. До моря 800 метров (предоставляется бесплатный трансфер). Грандиозная территория, аквапарк, спа-центр, множество ресторанов высокой кухни. Идеальное место для премиального отдыха.",
+        "descriptionRoom": "Дворцовый комплекс с главным 6-этажным зданием и отдельными виллами. Всего 450 номеров и люксов. Дизайнерские интерьеры, мраморные ванные комнаты. Оснащение: кондиционер, спутниковое ТВ, мини-бар (пополняется), кофемашина, сейф, халаты, тапочки. Виллы с приватным бассейном.",
+        "founded": 2013,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504524.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212303.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111304.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601221.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508344.jpg"
+        ],
+        "address": "Iskele Mevkii, Belek Mah. No:12, 07506 Белек, Турция",
+        "nutritions": "UAI - Ультра всё включено",
+        "hotelType": "Отель",
+        "stars": 5,
         "toCityId": 7,
+        "cityName": "Хургада",
+        "countryName": "Египет",
         "checked": false
     },
     {
         "id": 13,
         "name": "ALADDIN BEACH RESORT 4*",
+        "descriptionPlace": "Белек, Кадрие, 1 линия, 50 м до моря",
+        "description": "Отель на первой береговой линии в районе Кадрие. Песчано-галечный пляж в 50 метрах. Большая зеленая территория с бассейнами, водными горками и спортивными площадками. Питание «шведский стол», есть детский клуб и анимация.",
+        "descriptionRoom": "5-этажное здание на 280 номеров. Категории: Standard, Family Room, Suite. Номера с балконами или террасами. В каждом: кондиционер, спутниковое ТВ, мини-бар, сейф, телефон. Ванная комната с душевой кабиной, фен. В семейных номерах дополнительная спальня.",
+        "founded": 2009,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601438.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111331.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212304.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504525.jpg"
+        ],
+        "address": "Kadriye Mah. 4 Sok. No:23, 07506 Белек, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 7,
+        "cityName": "Хургада",
+        "countryName": "Египет",
         "checked": false
     },
-
     {
         "id": 14,
         "name": "4 СЕЗОНА",
+        "descriptionPlace": "Сиде, район Соргун, 400 м до моря",
+        "description": "Небольшой семейный отель в поселке Соргун. До песчаного пляжа 400 метров. Есть открытый бассейн, сауна и ресторан. Номера оснащены всем необходимым. Подходит для бюджетного и спокойного отдыха.",
+        "descriptionRoom": "3-этажный отель с 48 номерами. Все номера имеют кондиционер, спутниковое телевидение, мини-холодильник, собственную ванную комнату. Балконы с видом на бассейн или сад. Есть номера для людей с ограниченными возможностями.",
+        "founded": 2002,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601228.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508345.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601432.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111300.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504510.jpg"
+        ],
+        "address": "Sorgun Mah. 14 Sok. No:8, 07600 Сиде, Турция",
+        "nutritions": "HB - Завтрак, ужин",
+        "hotelType": "Пансионат",
         "stars": 2,
         "toCityId": 8,
+        "cityName": "Татарстан",
+        "countryName": "Россия",
         "checked": false
     },
     {
         "id": 15,
         "name": "АРКАДИЯ 2*",
+        "descriptionPlace": "Сиде, центр, 600 м до моря",
+        "description": "Отель расположен в центре Сиде, в пешей доступности от античного театра и музея под открытым небом. До пляжа 600 метров. Уютные номера, дружелюбная атмосфера и завтраки «шведский стол».",
+        "descriptionRoom": "Небольшой отель, 30 номеров. Номера простые, но уютные, с кондиционером, телевизором, холодильником. Ванные комнаты с душем. Из большинства номеров открывается вид на историческую часть города.",
+        "founded": 1998,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212305.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601227.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601433.jpg"
+        ],
+        "address": "Antik Cad. No:25, 07600 Сиде, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 2,
         "toCityId": 8,
+        "cityName": "Татарстан",
+        "countryName": "Россия",
         "checked": false
     },
     {
         "id": 16,
         "name": "БЕСТ 2*",
+        "descriptionPlace": "Сиде, Кумкой, 300 м до моря",
+        "description": "Гостевой отель в районе Кумкой. Чистые номера с кондиционером, терраса для завтрака. До пляжа 300 метров. Рядом много магазинов и кафе. Отличный вариант для непритязательных туристов.",
+        "descriptionRoom": "Небольшой гостевой дом на 15 номеров. Номера скромные, но чистые, оснащены кондиционером, телевизором и холодильником. Душевая комната компактная. Есть номера с балконом.",
+        "founded": 2011,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504521.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508340.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601226.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601434.jpg"
+        ],
+        "address": "Kumkoy Mah. 305 Sok. No:12, 07600 Сиде, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Гостевой дом",
         "stars": 2,
         "toCityId": 8,
+        "cityName": "Татарстан",
+        "countryName": "Россия",
         "checked": false
     },
-    
     {
         "id": 17,
         "name": "1001 НОЧЬ 2*",
+        "descriptionPlace": "Аланья, Махмутлар, 150 м до моря",
+        "description": "Отель в оживленном районе Махмутлар. До моря 150 метров. Рядом остановка общественного транспорта, магазины и рестораны. В отеле есть бассейн, бар и ресторан. Подходит для молодежного и бюджетного отдыха.",
+        "descriptionRoom": "5-этажный отель на 70 номеров. Номера стандартные, с кондиционером, телевизором, базовой мебелью. В ванной душевая кабина. Балконы выходят на улицу или во внутренний двор с бассейном.",
+        "founded": 2006,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504522.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601225.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111303.jpg"
+        ],
+        "address": "Mahmutlar Mah. 18 Sok. No:34, 07460 Аланья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 2,
         "toCityId": 9,
+        "cityName": "Самарская обл.",
+        "countryName": "Россия",
         "checked": false
     },
     {
         "id": 18,
         "name": "7 АВЕНЮ СПА 5*",
+        "descriptionPlace": "Аланья, Авсаллар, 200 м до моря",
+        "description": "Современный отель в районе Авсаллар. Просторные номера с дизайнерским ремонтом, развитая спа-инфраструктура (хаммам, сауна, джакузи). До моря 200 метров. Работает концепция «Ультра все включено».",
+        "descriptionRoom": "8-этажный отель с 210 номерами. Категории: Standard, Superior, Family, Suite. Дизайнерские интерьеры в светлых тонах. Оснащение: премиальная косметика, кондиционер, ЖК-ТВ, мини-бар, сейф, чайно-кофейная станция. В люксах отдельная гостиная и джакузи.",
+        "founded": 2017,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508341.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601435.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111304.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601224.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212300.jpg"
+        ],
+        "address": "Avsallar Mah. 7 Cad. No:12, 07460 Аланья, Турция",
+        "nutritions": "UAI - Ультра всё включено",
+        "hotelType": "Отель",
         "stars": 5,
         "toCityId": 9,
+        "cityName": "Самарская обл.",
+        "countryName": "Россия",
         "checked": false
     },
-
     {
         "id": 19,
         "name": "10 БОГОВ 4*",
+        "descriptionPlace": "Кемер, Чамьюва, 150 м до моря",
+        "description": "Отель в курортном поселке Чамьюва, окруженном сосновым лесом. До галечного пляжа 150 метров. Тихая и зеленая территория, есть бассейн, ресторан и бар. Отличный выбор для любителей природы и спокойного отдыха.",
+        "descriptionRoom": "4-этажное здание и отдельно стоящие бунгало, всего 180 номеров. Номера с деревянной отделкой, создающей атмосферу единения с природой. В каждом: кондиционер, спутниковое ТВ, мини-бар, сейф. Балконы или террасы с видом на сад.",
+        "founded": 2014,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504523.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111331.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508342.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601221.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601437.jpg"
+        ],
+        "address": "Camyuva Mah. 45 Sok. No:8, 07980 Кемер, Турция",
+        "nutritions": "HB - Завтрак, ужин",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 10,
+        "cityName": "Алтай",
+        "countryName": "Россия",
         "checked": false
     },
-
     {
         "id": 20,
         "name": "7 ДОРОГ 3*",
+        "descriptionPlace": "Анталья, Лара, 800 м до моря",
+        "description": "Городской отель в районе Лара, недалеко от известного пляжа Лара-Бич (800 м). В отеле есть открытый бассейн, сауна и ресторан. Номера оснащены мини-кухней. Рядом остановки транспорта до центра Антальи.",
+        "descriptionRoom": "6-этажный отель с 90 апартаментами. Все номера имеют мини-кухню с холодильником, плитой и посудой, обеденную зону. В спальне: кондиционер, телевизор. Ванная комната с душевой кабиной. Номера с балконами.",
+        "founded": 2008,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601228.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504524.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111300.jpg"
+        ],
+        "address": "Guzeloba Mah. 229 Sok. No:15, 07230 Анталья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Апартаменты",
         "stars": 3,
         "toCityId": 11,
+        "cityName": "Байкал",
+        "countryName": "Россия",
         "checked": false
     },
-
     {
         "id": 21,
         "name": "1000 И 1 НОЧЬ У ОКЕАНА",
+        "descriptionPlace": "Кемер, Гейнюк, 100 м до моря",
+        "description": "Уютный отель в поселке Гейнюк, в 100 метрах от ухоженного галечного пляжа. Вкусные завтраки, приветливый персонал, есть открытый бассейн. Рядом сосновый лес и прогулочные зоны. Идеально для пар.",
+        "descriptionRoom": "Небольшой двухэтажный отель в средиземноморском стиле, 32 номера. Номера уютные, с балконами, выходящими в сад. В каждом: кондиционер, телевизор, холодильник, чайник. Ванные комнаты современные, с душевой кабиной.",
+        "founded": 2012,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508343.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601438.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212303.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601227.jpg"
+        ],
+        "address": "Goynuk Mah. 105 Sok. No:6, 07980 Кемер, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Пансионат",
         "stars": 5,
         "toCityId": 12,
+        "cityName": "Дагестан",
+        "countryName": "Россия",
         "checked": false
     },
     {
         "id": 22,
         "name": "1001 НОЧЬ МАХАЧКАЛА 4*",
+        "descriptionPlace": "Кемер, Бельдиби, 200 м до моря",
+        "description": "Отель в районе Бельдиби, известном своими живописными бухтами. До моря 200 метров. Территория утопает в зелени. Есть открытый бассейн, ресторан и бар с живой музыкой по вечерам. Рекомендуем для спокойного отдыха.",
+        "descriptionRoom": "5-этажное здание с 125 номерами. Номера светлые, с деревянной мебелью. Оснащение: кондиционер, ЖК-телевизор со спутниковыми каналами, мини-бар, сейф. Ванная комната с душевой кабиной. Балконы с видом на горы или бассейн.",
+        "founded": 2009,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504525.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601226.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508344.jpg"
+        ],
+        "address": "Beldibi Mah. 35 Sok. No:22, 07980 Кемер, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 12,
+        "cityName": "Дагестан",
+        "countryName": "Россия",
         "checked": false
     },
     {
         "id": 23,
         "name": "12 ПРИЧАЛ",
+        "descriptionPlace": "Кемер, Текирова, 100 м до моря",
+        "description": "Небольшой отель в тихой части Текировы. Всего в 100 метрах от моря. Номера с видом на сад или бассейн. На завтрак подают свежие лепешки и оливки. Атмосфера домашнего уюта и гостеприимства.",
+        "descriptionRoom": "Мини-отель на 18 номеров. Двухэтажное здание с простыми, но уютными номерами. В номерах: кондиционер, телевизор, холодильник, базовый набор мебели. Ванные компактные, с душевой кабиной. Есть номера с балконом.",
+        "founded": 2015,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601432.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212304.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601225.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111303.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508345.jpg"
+        ],
+        "address": "Tekirova Mah. 12 Sok. No:3, 07980 Кемер, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Гостевой дом",
         "stars": 1,
         "toCityId": 12,
+        "cityName": "Дагестан",
+        "countryName": "Россия",
         "checked": false
     },
-
     {
         "id": 24,
         "name": "VERTEX 4*",
+        "descriptionPlace": "Анталья, центр, 1 км до моря",
+        "description": "Современный отель в центре Антальи, рядом с парком Караалиоглу и старой гаванью. До ближайшего пляжа Коньяалты — 1 км. Номера оснащены всем необходимым, есть фитнес-центр и ресторан на крыше с панорамным видом.",
+        "descriptionRoom": "9-этажное здание с 165 номерами. Категории: Standard, Business, Suite. Номера в современном стиле, с лаконичным дизайном. Оснащение: кондиционер, Smart TV, мини-бар, сейф, рабочий стол. В ванной: душевая кабина или ванна, косметика, фен.",
+        "founded": 2016,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504510.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111304.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601224.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212305.jpg"
+        ],
+        "address": "Kilicarslan Mah. Hidirlik Sok. No:35, 07100 Анталья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 13,
+        "cityName": "Красная поляна",
+        "countryName": "Россия",
         "checked": false
     },
-
     {
         "id": 25,
         "name": "100 INN 2*",
+        "descriptionPlace": "Сиде, Кызылагач, 400 м до моря",
+        "description": "Гостевой дом в тихом районе Кызылагач. Чистые и уютные номера, небольшой бассейн. До песчаного пляжа 400 метров. Рядом есть несколько кафе и супермаркет. Отличный вариант для бюджетного отдыха на море.",
+        "descriptionRoom": "Двухэтажный гостевой дом на 14 номеров. Номера просторные, с кондиционером, телевизором, холодильником. В каждом номере собственная ванная комната с душевой кабиной. Есть номера с мини-кухней. Балконы выходят в сад.",
+        "founded": 2013,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508340.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601433.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601221.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111331.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504521.jpg"
+        ],
+        "address": "Kizilagac Mah. 108 Sok. No:7, 07600 Сиде, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Гостевой дом",
         "stars": 2,
         "toCityId": 14,
+        "cityName": "Пекин",
+        "countryName": "Китай",
         "checked": false
     },
     {
         "id": 26,
         "name": "ASIA HOTEL 5*",
+        "descriptionPlace": "Белек, Кадрие, 1 линия, 50 м до моря",
+        "description": "Шикарный отель на первой береговой линии в Белеке. Собственный песчаный пляж, огромная территория с аквапарком и тропическими растениями. Разнообразные рестораны, спа-центр и профессиональная анимация. Для требовательных гостей.",
+        "descriptionRoom": "Главный 6-этажный корпус и комплекс вилл. Всего 520 номеров, включая президентский люкс. Номера оформлены в стиле фьюжн (восточные мотивы и современность). Оснащение: премиум-класс косметика, кондиционер, ТВ с большим экраном, пополняемый мини-бар, кофемашина, халаты, тапочки. В люксах - приватные бассейны.",
+        "founded": 2011,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212300.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111300.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601228.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504522.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508341.jpg"
+        ],
+        "address": "Kadriye Mah. Tasliburun Mevkii No:15, 07506 Белек, Турция",
+        "nutritions": "UAI - Ультра всё включено",
+        "hotelType": "Отель",
         "stars": 5,
         "toCityId": 14,
+        "cityName": "Пекин",
+        "countryName": "Китай",
         "checked": false
     },
     {
         "id": 27,
         "name": "BEIJING 5*",
+        "descriptionPlace": "Белек, Богазкент, 200 м до моря",
+        "description": "Отель высокого класса в поселке Богазкент. Ухоженная территория, просторные номера. До пляжа 200 метров. Есть несколько бассейнов, теннисные корты, спа-центр. Рестораны предлагают блюда турецкой и азиатской кухни.",
+        "descriptionRoom": "4-этажное здание в восточном стиле, 290 номеров. Категории: Standard, Deluxe, Suite. Номера с элементами азиатского дизайна. Оснащение: кондиционер, спутниковое ТВ, мини-бар, сейф, чайно-кофейная станция. Ванные комнаты с душевой кабиной и феном.",
+        "founded": 2010,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601434.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601227.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212301.jpg"
+        ],
+        "address": "Bogazkent Mah. 12 Sok. No:45, 07506 Белек, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 5,
         "toCityId": 14,
+        "cityName": "Пекин",
+        "countryName": "Китай",
         "checked": false
     },
     {
         "id": 28,
         "name": "CCECC PLAZA 4*",
+        "descriptionPlace": "Белек, центр, 500 м до моря",
+        "description": "Современный отель в центре Белека. Подходит как для пляжного отдыха, так и для гольфа. До полей для гольфа — 5 минут на трансфере. Номера с дизайнерским ремонтом, ресторан интернациональной кухни, большой бассейн.",
+        "descriptionRoom": "7-этажное здание с 155 номерами. Номера категорий Standard, Business. Оснащение: кондиционер, телевизор с плоским экраном, мини-бар, сейф, рабочий стол. Ванная комната с душевой кабиной. Из номеров открывается вид на город или бассейн.",
+        "founded": 2014,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504523.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508342.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601226.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601435.jpg"
+        ],
+        "address": "Belek Mah. Ataturk Cad. No:22, 07506 Белек, Турция",
+        "nutritions": "HB - Завтрак, ужин",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 14,
+        "cityName": "Пекин",
+        "countryName": "Китай",
         "checked": false
     },
-
     {
         "id": 29,
         "name": "AIRLAND 4*",
+        "descriptionPlace": "Анталья, Коньяалты, 150 м до моря",
+        "description": "Отель в престижном районе Коньяалты, недалеко от пляжа (150 м) и одноименного парка. Номера оснащены всем необходимым, некоторые с видом на море. Есть открытый бассейн, сауна и хамам. Рядом много кафе и магазинов.",
+        "descriptionRoom": "6-этажное здание с 135 номерами. Категории: Standard с видом на город, Superior с видом на море, Family. В номерах: кондиционер, ЖК-телевизор, мини-бар, сейф, чайник. Ванная комната с душевой кабиной или ванной. Балконы застекленные.",
+        "founded": 2009,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212302.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111303.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601225.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504524.jpg"
+        ],
+        "address": "Arapsuyu Mah. 652 Sok. No:28, 07070 Анталья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 15,
+        "cityName": "Гонконг",
+        "countryName": "Китай",
         "checked": false
     },
     {
         "id": 30,
         "name": "CHINA RICH HOTEL 3*",
+        "descriptionPlace": "Анталья, Лара, 600 м до моря",
+        "description": "Бюджетный отель в динамично развивающемся районе Лара. До общественного пляжа 600 метров. В отеле есть открытый бассейн, ресторан и бар. Номера простые, но чистые. Хорошее соотношение цены и качества.",
+        "descriptionRoom": "4-этажное здание на 80 номеров. Номера стандартные, с неброским ремонтом. В каждом: кондиционер, телевизор, холодильник, базовая мебель. Ванная комната с душевой кабиной. Есть номера с балконом.",
+        "founded": 2007,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508343.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601437.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601224.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111304.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212303.jpg"
+        ],
+        "address": "Guzeloba Mah. 228 Sok. No:9, 07230 Анталья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Отель",
         "stars": 3,
         "toCityId": 15,
+        "cityName": "Гонконг",
+        "countryName": "Китай",
         "checked": false
     },
-
     {
         "id": 31,
         "name": "GOLDEN DRAGON 4*",
+        "descriptionPlace": "Кемер, Кириш, 150 м до моря",
+        "description": "Отель в живописном районе Кириш, окруженный горами и соснами. До моря 150 метров. Есть открытый и крытый бассейны, спа-центр. Питание по системе «Все включено» включает блюда интернациональной кухни. Анимация для взрослых и детей.",
+        "descriptionRoom": "5-этажный корпус, 210 номеров. Категории: Standard, Family, Suite. Дизайн в восточном стиле с элементами современной классики. Оснащение: кондиционер, спутниковое ТВ, мини-бар, сейф, чайник. Ванная комната с душевой кабиной. Балконы с видом на море или горы.",
+        "founded": 2012,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504525.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111331.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508344.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601221.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601438.jpg"
+        ],
+        "address": "Kirish Mah. 25 Sok. No:12, 07980 Кемер, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 4,
         "toCityId": 16,
+        "cityName": "Макао",
+        "countryName": "Китай",
         "checked": false
     },
-
     {
         "id": 32,
         "name": "8 COLORS 3*",
+        "descriptionPlace": "Аланья, Окурджалар, 100 м до моря",
+        "description": "Яркий и современный отель в поселке Окурджалар. До моря 100 метров. Номера оформлены в разных цветовых гаммах. Есть бассейн, ресторан и бар. Для гостей организуют вечеринцы и пенную вечеринку. Для молодежного отдыха.",
+        "descriptionRoom": "4-этажный отель с 65 номерами. Каждый этаж выполнен в своем цвете (красный, синий, зеленый, желтый). Номера с яркими акцентами, LED-подсветкой. Оснащение: кондиционер, телевизор, мини-бар, сейф. Ванная комната с душевой кабиной. Балконы с видом на море или бассейн.",
+        "founded": 2018,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212304.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601228.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111300.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/blue-coast-hotel-102508345.jpg"
+        ],
+        "address": "Okurcalar Mah. 24 Sok. No:7, 07460 Аланья, Турция",
+        "nutritions": "AI - Всё включено",
+        "hotelType": "Отель",
         "stars": 3,
         "toCityId": 17,
+        "cityName": "Шанхай",
+        "countryName": "Китай",
         "checked": false
     },
     {
         "id": 33,
         "name": "ALILA 2*",
+        "descriptionPlace": "Аланья, Каргыджак, 200 м до моря",
+        "description": "Семейный мини-отель в тихом районе Каргыджак. До моря 200 метров. Чисто, уютно и спокойно. Номера с кондиционером и небольшой кухней. Завтраки домашние. Рядом есть рынок и несколько кафе.",
+        "descriptionRoom": "Небольшой двухэтажный отель, 20 номеров-студио. В каждом номере: мини-кухня с холодильником и плитой, обеденная зона, спальня с кондиционером и телевизором. Ванная комната компактная, с душевой кабиной. Из номеров выход на общую террасу.",
+        "founded": 2016,
+        "imageUrls": [
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/prenses-sealine-beach-hotel-102504510.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kemper-dinara-garden-102601432.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/best-alanya-102601227.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/suite-laguna-2111301.jpg",
+            "https://static.tourvisor.ru/hotel_pics/verybig/4/kleopatra-royal-palm-2212305.jpg"
+        ],
+        "address": "Kargicak Mah. 16 Sok. No:5, 07460 Аланья, Турция",
+        "nutritions": "BB - Только завтрак",
+        "hotelType": "Гостевой дом",
         "stars": 2,
         "toCityId": 17,
+        "cityName": "Шанхай",
+        "countryName": "Китай",
         "checked": false
     }
 ]

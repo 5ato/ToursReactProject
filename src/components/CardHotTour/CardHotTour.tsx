@@ -1,33 +1,37 @@
 import { Link } from "react-router-dom"
 import styles from "./CardHotTour.module.css"
+import type Tour from "../../interfaces/TourInterface"
+import type Hotel from "../../interfaces/HotelInterface"
+import type FromCity from "../../interfaces/FromCityInterface";
 
-export default function CardHotTour() {
+export default function CardHotTour({ tour, hotels, fromCities }: {tour: Tour, hotels: Hotel[], fromCities: FromCity[]} ) {
+    const hotel = hotels.find(v => v.id === tour.hotelId);
+    const fromCity = fromCities.find(v => v.id === tour.fromCityId)
+
     return (
         <div className={styles.hotToursItem}>
             <div className={styles.hotToursItem__image}>
-                <Link to={"/detail"}><img src="https://static.tourvisor.ru/hotel_pics/main400/381.jpg" /></Link>
+                <Link to={`/tour/${tour.id}`}><img src={hotel?.imageUrls[0]} /></Link>
             </div>
             <div className={styles.hotToursItem__rating}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="#ffa300" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.feather + " " + styles.feather__star}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="#ffa300" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.feather + " " + styles.feather__star}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="#ffa300" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.feather + " " + styles.feather__star}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="#ffa300" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.feather + " " + styles.feather__star}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="#ffa300" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.feather + " " + styles.feather__star}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                {new Array(hotel?.stars).fill(0).map(_ => (
+                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="#ffa300" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.feather + " " + styles.feather__star}><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                ))}
             </div>
             <h4 className={styles.hotToursItem__Name}>
-                <Link to={"/detail"}>Rehana Royal Beach Resort Aqua Park & Spa 5*</Link>
+                <Link to={`/tour/${tour.id}`}>{hotel?.name}</Link>
             </h4>
-            <p className={styles.hotToursItem__cityCountry}>Шарм-Эль-Шейх, Египет</p>
-            <p className={styles.hotToursItem__night}>26 фев, 6 ночей</p>
-            <p className={styles.hotToursItem__russiaCity}>из Самары</p>
+            <p className={styles.hotToursItem__cityCountry}>{hotel?.cityName}, {hotel?.countryName}</p>
+            <p className={styles.hotToursItem__night}>{tour.departureDate.toLocaleDateString("ru-RU")}, {tour.nightCount} ночей</p>
+            <p className={styles.hotToursItem__russiaCity}>из {fromCity?.name}</p>
             <div className={styles.hotToursItem__price}>
                 <div className={styles.hotTourInfoOldPrice}>
-                    <div className={styles.hotTourInfoOldPriceValue}>90 187</div>
+                    <div className={styles.hotTourInfoOldPriceValue}>{tour.oldPrice}</div>
                     <div className={styles.hotTourInfoOldPriceCurrency}>РУБ</div>
                 </div>
                 <div className={styles.hotTourInfoPriceBlock}>
                     <div className={styles.hotTourInfoNewPrice}>
-                        <div className={styles.hotTourInfoNewPriceValue}>63 217</div>
+                        <div className={styles.hotTourInfoNewPriceValue}>{tour.newPrice}</div>
                         <div className={styles.hotTourInfoNewPriceCurrency}>РУБ</div>
                     </div>
                     <div className={styles.hotTourInfoPriceIcon}>

@@ -11,6 +11,8 @@ import mealData from "../../data/mealData"
 import ratingData from "../../data/ratingData"
 import type { SearchHotelFilterInterface, SearchWithFlightFilterInterface } from "../../interfaces/FiltersInterface"
 import { useEffect, useState } from "react"
+import type Hotel from "../../interfaces/HotelInterface"
+import type ToCity from "../../interfaces/ToCityInterface"
 
 interface SearchHotelProps {
     filtersWithFlight: SearchWithFlightFilterInterface,
@@ -18,26 +20,11 @@ interface SearchHotelProps {
     onFilterChange: React.Dispatch<React.SetStateAction<SearchHotelFilterInterface>>
 }
 
-interface ToCity {
-    id: number;
-    name: string;
-    toCountryId: number;
-    checked: boolean;
-}
-
-interface Hotels {
-    id: number;
-    name: string;
-    stars: number;
-    toCityId: number;
-    checked: boolean;
-}
-
 export default function SearchHotel({ filtersHotel, filtersWithFlight, onFilterChange }: SearchHotelProps)  {
     const {isActive, toggleDropdown} = useDropdownManager({ initialActiveId: null });
 
     const [toCities, setToCities] = useState<ToCity[]>([]);
-    const [hotels, setHotels] = useState<Hotels[]>([]);
+    const [hotels, setHotels] = useState<Hotel[]>([]);
 
     function handleFilterChange(field: keyof SearchHotelFilterInterface, value: any) {
         onFilterChange(prev => ({
@@ -61,7 +48,7 @@ export default function SearchHotel({ filtersHotel, filtersWithFlight, onFilterC
     useEffect(() => {
         fetch("data/hotelsData.json")
             .then(data => data.json())
-            .then((result: Hotels[]) => {
+            .then((result: Hotel[]) => {
                 if (filtersHotel.checkedToCitiesId.length === 1 && filtersHotel.checkedToCitiesId[0] === 0)
                     setHotels(result.filter(val => toCities.filter(c => c.toCountryId === filtersWithFlight.toCityId).map(c => c.id).includes(val.toCityId)));
                 else
