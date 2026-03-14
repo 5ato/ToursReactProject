@@ -1,0 +1,2 @@
+wwwroot\Data\toursData.json
+D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\wwwroot\Data\toursData.json

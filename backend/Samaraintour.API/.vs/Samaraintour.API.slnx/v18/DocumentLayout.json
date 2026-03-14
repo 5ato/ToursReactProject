@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\models\\filter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\enums\\fieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\enums\\fieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\enums\\hoteltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\enums\\hoteltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\enums\\nutrition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\enums\\nutrition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|d:\\projects\\oris\\homework1\\withreact\\backend\\samaraintour.api\\samaraintour.api\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F7691C-1D31-4E35-83E5-B634704FCB51}|Samaraintour.API\\Samaraintour.API.csproj|solutionrelative:samaraintour.api\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FieldType.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Enums\\FieldType.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Enums\\FieldType.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Enums\\FieldType.cs",
+              "RelativeToolTip": "Samaraintour.API\\Enums\\FieldType.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:07:53.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Filter.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Filter.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Models\\Filter.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Filter.cs",
+              "RelativeToolTip": "Samaraintour.API\\Models\\Filter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:00:15.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Program.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Program.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Program.cs",
+              "RelativeToolTip": "Samaraintour.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:37:08.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSeed.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Data\\DataSeed.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Data\\DataSeed.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Data\\DataSeed.cs",
+              "RelativeToolTip": "Samaraintour.API\\Data\\DataSeed.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwBwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:25:27.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelType.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Enums\\HotelType.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Enums\\HotelType.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Enums\\HotelType.cs",
+              "RelativeToolTip": "Samaraintour.API\\Enums\\HotelType.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:22:27.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Nutrition.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Enums\\Nutrition.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Enums\\Nutrition.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Enums\\Nutrition.cs",
+              "RelativeToolTip": "Samaraintour.API\\Enums\\Nutrition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:15:45.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\City.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Models\\City.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\City.cs",
+              "RelativeToolTip": "Samaraintour.API\\Models\\City.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:56:47.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Models\\Country.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Country.cs",
+              "RelativeToolTip": "Samaraintour.API\\Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:56:28.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Models\\Hotel.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Hotel.cs",
+              "RelativeToolTip": "Samaraintour.API\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:55:12.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Tour.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Models\\Tour.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Models\\Tour.cs",
+              "RelativeToolTip": "Samaraintour.API\\Models\\Tour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:55:03.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilterController.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Controllers\\FilterController.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Controllers\\FilterController.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Controllers\\FilterController.cs",
+              "RelativeToolTip": "Samaraintour.API\\Controllers\\FilterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:53:19.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Controllers\\HotelController.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "Samaraintour.API\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:51:12.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TourController.cs",
+              "DocumentMoniker": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Controllers\\TourController.cs",
+              "RelativeDocumentMoniker": "Samaraintour.API\\Controllers\\TourController.cs",
+              "ToolTip": "D:\\Projects\\ORIS\\Homework1\\WithReact\\backend\\Samaraintour.API\\Samaraintour.API\\Controllers\\TourController.cs",
+              "RelativeToolTip": "Samaraintour.API\\Controllers\\TourController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:44:41.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

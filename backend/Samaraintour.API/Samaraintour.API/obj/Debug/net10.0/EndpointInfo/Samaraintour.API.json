@@ -1,0 +1,65 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "SamaraInTour API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/v1/Filter": {
+      "get": {
+        "tags": [
+          "Filter"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Tour": {
+      "get": {
+        "tags": [
+          "Tour"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Tour/{id}": {
+      "get": {
+        "tags": [
+          "Tour"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "Filter"
+    },
+    {
+      "name": "Tour"
+    }
+  ]
+}
