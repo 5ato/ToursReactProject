@@ -20,8 +20,7 @@
         "stars": 5,
         "toCityId": 1,
         "cityName": "Стамбул",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 2,
@@ -44,8 +43,7 @@
         "stars": 2,
         "toCityId": 1,
         "cityName": "Стамбул",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 3,
@@ -68,8 +66,7 @@
         "stars": 1,
         "toCityId": 1,
         "cityName": "Стамбул",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 4,
@@ -92,8 +89,7 @@
         "stars": 1,
         "toCityId": 2,
         "cityName": "Анталия",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 5,
@@ -116,8 +112,7 @@
         "stars": 3,
         "toCityId": 3,
         "cityName": "Белек",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 6,
@@ -138,8 +133,7 @@
         "stars": 2,
         "toCityId": 4,
         "cityName": "Кайсере",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 7,
@@ -161,8 +155,7 @@
         "stars": 5,
         "toCityId": 4,
         "cityName": "Кайсере",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 8,
@@ -183,8 +176,7 @@
         "stars": 3,
         "toCityId": 5,
         "cityName": "Чешме",
-        "countryName": "Турция",
-        "checked": false
+        "countryName": "Турция"
     },
     {
         "id": 9,
@@ -206,8 +198,7 @@
         "stars": 4,
         "toCityId": 6,
         "cityName": "Шарм-Эль-Шейх",
-        "countryName": "Египет",
-        "checked": false
+        "countryName": "Египет"
     },
     {
         "id": 10,
@@ -229,8 +220,7 @@
         "stars": 5,
         "toCityId": 6,
         "cityName": "Шарм-Эль-Шейх",
-        "countryName": "Египет",
-        "checked": false
+        "countryName": "Египет"
     },
     {
         "id": 11,
@@ -251,8 +241,7 @@
         "stars": 3,
         "toCityId": 6,
         "cityName": "Шарм-Эль-Шейх",
-        "countryName": "Египет",
-        "checked": false
+        "countryName": "Египет"
     },
     {
         "id": 12,
@@ -274,8 +263,7 @@
         "stars": 5,
         "toCityId": 7,
         "cityName": "Хургада",
-        "countryName": "Египет",
-        "checked": false
+        "countryName": "Египет"
     },
     {
         "id": 13,
@@ -296,8 +284,7 @@
         "stars": 4,
         "toCityId": 7,
         "cityName": "Хургада",
-        "countryName": "Египет",
-        "checked": false
+        "countryName": "Египет"
     },
     {
         "id": 14,
@@ -319,8 +306,7 @@
         "stars": 2,
         "toCityId": 8,
         "cityName": "Татарстан",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 15,
@@ -341,8 +327,7 @@
         "stars": 2,
         "toCityId": 8,
         "cityName": "Татарстан",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 16,
@@ -364,8 +349,7 @@
         "stars": 2,
         "toCityId": 8,
         "cityName": "Татарстан",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 17,
@@ -386,8 +370,7 @@
         "stars": 2,
         "toCityId": 9,
         "cityName": "Самарская обл.",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 18,
@@ -409,8 +392,7 @@
         "stars": 5,
         "toCityId": 9,
         "cityName": "Самарская обл.",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 19,
@@ -432,8 +414,7 @@
         "stars": 4,
         "toCityId": 10,
         "cityName": "Алтай",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 20,
@@ -454,8 +435,7 @@
         "stars": 3,
         "toCityId": 11,
         "cityName": "Байкал",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 21,
@@ -477,8 +457,7 @@
         "stars": 5,
         "toCityId": 12,
         "cityName": "Дагестан",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 22,
@@ -499,8 +478,7 @@
         "stars": 4,
         "toCityId": 12,
         "cityName": "Дагестан",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 23,
@@ -522,8 +500,7 @@
         "stars": 1,
         "toCityId": 12,
         "cityName": "Дагестан",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 24,
@@ -544,8 +521,7 @@
         "stars": 4,
         "toCityId": 13,
         "cityName": "Красная поляна",
-        "countryName": "Россия",
-        "checked": false
+        "countryName": "Россия"
     },
     {
         "id": 25,
@@ -567,8 +543,7 @@
         "stars": 2,
         "toCityId": 14,
         "cityName": "Пекин",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 26,
@@ -590,8 +565,7 @@
         "stars": 5,
         "toCityId": 14,
         "cityName": "Пекин",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 27,
@@ -612,8 +586,7 @@
         "stars": 5,
         "toCityId": 14,
         "cityName": "Пекин",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 28,
@@ -635,8 +608,7 @@
         "stars": 4,
         "toCityId": 14,
         "cityName": "Пекин",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 29,
@@ -657,8 +629,7 @@
         "stars": 4,
         "toCityId": 15,
         "cityName": "Гонконг",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 30,
@@ -680,8 +651,7 @@
         "stars": 3,
         "toCityId": 15,
         "cityName": "Гонконг",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 31,
@@ -703,8 +673,7 @@
         "stars": 4,
         "toCityId": 16,
         "cityName": "Макао",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 32,
@@ -725,8 +694,7 @@
         "stars": 3,
         "toCityId": 17,
         "cityName": "Шанхай",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     },
     {
         "id": 33,
@@ -748,7 +716,6 @@
         "stars": 2,
         "toCityId": 17,
         "cityName": "Шанхай",
-        "countryName": "Китай",
-        "checked": false
+        "countryName": "Китай"
     }
 ]

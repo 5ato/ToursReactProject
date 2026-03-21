@@ -38,3 +38,9 @@ D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\o
 D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\DnsClient.dll
+D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\MongoDB.Bson.dll
+D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\MongoDB.Driver.dll
+D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\SharpCompress.dll
+D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\Snappier.dll
+D:\Projects\ORIS\Homework1\WithReact\backend\Samaraintour.API\Samaraintour.API\bin\Debug\net10.0\ZstdSharp.dll

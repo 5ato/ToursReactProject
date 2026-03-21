@@ -1,4 +1,3 @@
-import { useState } from "react"
 import styles from "./TypeHotelMenu.module.css"
 
 interface TypeHotel {

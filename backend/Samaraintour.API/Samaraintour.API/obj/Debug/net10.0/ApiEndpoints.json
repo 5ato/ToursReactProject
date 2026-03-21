@@ -1,5 +1,242 @@
 [
   {
+    "ContainingType": "Samaraintour.API.Modules.HotelModule.HotelController",
+    "Method": "GetAll",
+    "RelativePath": "api/Hotel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.HotelModule.HotelController",
+    "Method": "Create",
+    "RelativePath": "api/Hotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandCreateHotel",
+        "Type": "Samaraintour.API.Modules.HotelModule.CommandCreateHotel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.HotelModule.HotelController",
+    "Method": "GetById",
+    "RelativePath": "api/Hotel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.HotelModule.HotelController",
+    "Method": "PutUpdate",
+    "RelativePath": "api/Hotel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "commandUpdateHotel",
+        "Type": "Samaraintour.API.Modules.HotelModule.CommandUpdateHotel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.HotelModule.HotelController",
+    "Method": "Delete",
+    "RelativePath": "api/Hotel/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CityModule.CityController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/City",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CityModule.CityController",
+    "Method": "Create",
+    "RelativePath": "api/v1/City",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandCreateCity",
+        "Type": "Samaraintour.API.Modules.CityModule.CommandCreateCity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CityModule.CityController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/City/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CityModule.CityController",
+    "Method": "PutUpdate",
+    "RelativePath": "api/v1/City/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "commandUpdateCity",
+        "Type": "Samaraintour.API.Modules.CityModule.CommandUpdateCity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CityModule.CityController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/City/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CountryModule.CountryController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CountryModule.CountryController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Country",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandCreateCountry",
+        "Type": "Samaraintour.API.Modules.CountryModule.CommandCreateCountry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CountryModule.CountryController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Country/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CountryModule.CountryController",
+    "Method": "PutUpdate",
+    "RelativePath": "api/v1/Country/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "commandUpdateCountry",
+        "Type": "Samaraintour.API.Modules.CountryModule.CommandUpdateCountry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.CountryModule.CountryController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Country/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Samaraintour.API.Controllers.FilterController",
     "Method": "GetFilters",
     "RelativePath": "api/v1/Filter",
@@ -10,8 +247,8 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Samaraintour.API.Controllers.TourController",
-    "Method": "GetAllTours",
+    "ContainingType": "Samaraintour.API.Modules.TourModule.TourController",
+    "Method": "GetAll",
     "RelativePath": "api/v1/Tour",
     "HttpMethod": "GET",
     "IsController": true,
@@ -20,8 +257,24 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Samaraintour.API.Controllers.TourController",
-    "Method": "GetTour",
+    "ContainingType": "Samaraintour.API.Modules.TourModule.TourController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Tour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commandCreateTour",
+        "Type": "Samaraintour.API.Modules.TourModule.CommandCreateTour",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.TourModule.TourController",
+    "Method": "GetById",
     "RelativePath": "api/v1/Tour/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -29,7 +282,44 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.TourModule.TourController",
+    "Method": "PutUpdate",
+    "RelativePath": "api/v1/Tour/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "commandUpdateTour",
+        "Type": "Samaraintour.API.Modules.TourModule.CommandUpdateTour",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Samaraintour.API.Modules.TourModule.TourController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Tour/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

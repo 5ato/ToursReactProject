@@ -1,5 +1,7 @@
-﻿using Samaraintour.API.Enums;
-using Samaraintour.API.Models;
+﻿using Samaraintour.API.DTOs;
+using Samaraintour.API.Enums;
+using Samaraintour.API.Modules.TourModule;
+using Samaraintour.API.MongoModels;
 using System.Text.Json;
 
 namespace Samaraintour.API.Data;
@@ -26,33 +28,28 @@ public static class DataSeed
         return Tours;
     }
 
-    public static IEnumerable<Filter> GetFilters()
+    public static IEnumerable<FilterDTO> GetFilters()
     {
         return [
-            new Filter()
+            new FilterDTO()
             {
-                Id = 1,
+                Id = "1",
                 DisplayName = "Класс Отеля",
                 FieldType = FieldType.Rating,
                 IsRequied = false,
                 MinValue = 1,
                 MaxValue = 5,
-                Field = FieldType.Rating.DisplayFieldType()
+                Field = "Stars"
             },
-            new Filter()
+            new FilterDTO()
             {
-                Id = 2,
+                Id = "2",
                 DisplayName = "Тип Отеля",
                 Placeholder = "Тип Отеля",
                 FieldType = FieldType.MultiSelection,
                 IsRequied = false,
-                Field = FieldType.MultiSelection.DisplayFieldType(),
+                Field = "HotelTypes",
                 Options = [
-                        new FilterOption()
-                        {
-                            Label = HotelType.Any.HotelTypeDisplay(),
-                            Value = HotelType.Any,
-                        },
                         new FilterOption()
                         {
                             Label = HotelType.Hotel.HotelTypeDisplay(),

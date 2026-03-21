@@ -1,110 +1,87 @@
 [
     {
-        "id": 0,
-        "name": "Любой курорт",
-        "toCountryId": 0,
-        "checked": true
-    },
-    {
         "id": 1,
         "name": "Стамбул",
-        "toCountryId": 1,
-        "checked": false
+        "toCountryId": 1
     },
     {
         "id": 2,
         "name": "Анталия",
-        "toCountryId": 1,
-        "checked": false
+        "toCountryId": 1
     },
     {
         "id": 3,
         "name": "Белек",
-        "toCountryId": 1,
-        "checked": false
+        "toCountryId": 1
     },
     {
         "id": 4,
         "name": "Кайсере",
-        "toCountryId": 1,
-        "checked": false
+        "toCountryId": 1
     },
     {
         "id": 5,
         "name": "Чешме",
-        "toCountryId": 1,
-        "checked": false
+        "toCountryId": 1
     },
     {
         "id": 6,
         "name": "Шарм-Эль-Шейх",
-        "toCountryId": 2,
-        "checked": false
+        "toCountryId": 2
     },
     {
         "id": 7,
         "name": "Хургада",
-        "toCountryId": 2,
-        "checked": false
+        "toCountryId": 2
     },
     {
         "id": 8,
         "name": "Татарстан",
-        "toCountryId": 3,
-        "checked": false
+        "toCountryId": 3
     },
     {
         "id": 9,
         "name": "Самарская обл.",
-        "toCountryId": 3,
-        "checked": false
+        "toCountryId": 3
     },
     {
         "id": 10,
         "name": "Алтай",
-        "toCountryId": 3,
-        "checked": false
+        "toCountryId": 3
     },
     {
         "id": 11,
         "name": "Байкал",
-        "toCountryId": 3,
-        "checked": false
+        "toCountryId": 3
     },
     {
         "id": 12,
         "name": "Дагестан",
-        "toCountryId": 3,
-        "checked": false
+        "toCountryId": 3
     },
     {
         "id": 13,
         "name": "Красная поляна",
-        "toCountryId": 3,
-        "checked": false
+        "toCountryId": 3
     },
     {
         "id": 14,
         "name": "Пекин",
-        "toCountryId": 4,
-        "checked": false
+        "toCountryId": 4
     },
     {
         "id": 15,
         "name": "Гонконг",
-        "toCountryId": 4,
-        "checked": false
+        "toCountryId": 4
     },
     {
         "id": 16,
         "name": "Макао",
-        "toCountryId": 4,
-        "checked": false
+        "toCountryId": 4
     },
     {
         "id": 17,
         "name": "Шанхай",
-        "toCountryId": 4,
-        "checked": false
+        "toCountryId": 4
     }
 ]
